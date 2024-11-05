@@ -18,12 +18,27 @@
             Console.WriteLine("Age: " + myAge);
             Console.WriteLine("Address: " + myAddress);
 
-            //Create a simple console application and declare basic datatypes like int, float, decimal, double and print their min and max values.
-
             //Write a C# Sharp program to print the sum of two numbers.
+            Console.WriteLine("Enter the first number: ");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter the second number: ");
+            int number2 = Convert.ToInt32(Console.ReadLine());
+
+            int sum = number1 + number2;
+            Console.WriteLine("The sum is: " + sum);
 
             //Write a C# Sharp program to print the result of dividing two numbers.
-        }
+            Console.WriteLine("Enter the dividend: ");
+            double dividend = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Enter the divisor: ");
+            double divisor = Convert.ToDouble(Console.ReadLine());
+
+            double result = dividend / divisor;
+            Console.WriteLine("The result: " + result);
+
+            }
 
     }
 }
